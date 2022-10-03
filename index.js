@@ -45,16 +45,6 @@ var textLines = [
 
 var characters = [];
 
-/*
-window.addEventListener("keypress", checkKeyPress, false);
-
-function checkKeyPress(key){
-    if(key.keyCode == "32"){
-        return true;
-    }
-}
-*/
-
 textLines.forEach((line, index) => {
         line.string.split("").forEach((character) => {
             var span = document.createElement("span");
@@ -89,12 +79,12 @@ setTimeout(() => {
     revealOneCharacter(characters);
 }, 600)
 
-/*function endAlert(list) {
-    if(list.length===1){
-        alert("I'm here!!!");
+function confirmFunction(){
+    if(window.confirm("Big L. We must complete the puzzle of the Parker Solar Probe to prepare for the takeoff to the sun!")){
+        window.location.href='https://c1phan.github.io/slide_game/';
+    }
+    else{
+        window.location.href='https://c1phan.github.io/dialogue1/'
     }
 }
 
-setInterval(function() {
-    endAlert(characters);
-}, 1000);*/
