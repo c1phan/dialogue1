@@ -30,8 +30,7 @@ bgImg.onload = () => {
 
 var speeds = {
     pause: 500,
-    veryslow: 350,
-    slow: 170,
+    slow: 150,
     normal: 100,
 };
 
