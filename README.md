@@ -4,7 +4,7 @@ phanily + fakeboogy
 
 spaceapps competition: On The Way to the Sun
 
-https://c1phan.github.io/dialogue2/
+https://c1phan.github.io/dialogue1/
 
 Dialogue #1:
   - Programmer = Christine Phan
